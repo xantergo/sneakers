@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Russo One';
+  src: url(fonts/RussoOne-Regular.ttf);
+}
+
+
+
+
+h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 56px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 48px;
+}
+
+.sneaker {
+  align-items: center;
+  margin: 15px;
+  background: white;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 10%;
+}
+
+.sneaker__image {
+  border-radius: 12px 12px 0px 0px;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+img {
+  width: 350px;
+}
+
+.header {
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  border-bottom: 1px solid lightgray;
+  margin: -8px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  margin-right: 100px;
+  margin-left: 90px;
+  padding: 15px;
+  width: 250px
+}
+
+.linksocials {
+  column-gap: 24px;
+}
+
+.linksocials a {
+  color: black;
+}
+
+.socialsheader {
+  display: flex;
+  column-gap: 24px;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+
+main {
+  background: #F1F1F1;
+  gap: 24px;
+  display: grid;
+}
+
+hr {
+  height: 1px;
+  background-color: #E6E8EC66;
+  border: none;
+  width: 83%;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
+.footer {
+  background: #121723;
+  height: 142px;
+  border-top: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.socialsfooter {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 24px;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.socialsfooter a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footerFirst {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: -20px;
+  
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-family: "Anonymous Pro";
+  color: #A1A6B4;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.AllSneakers {
+  display: grid;
+  margin-right: 100px;
+  margin-left: 100px;
+  grid-template-columns: repeat(3, 0.5fr);
+}
+
+body{
+  margin: 0px
+}
